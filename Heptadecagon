@@ -1,0 +1,26 @@
+public class Heptadecagon implements Shape
+{
+    private int side;
+    private String color;
+    
+    public Heptadecagon(int side, String color)
+    {
+        this.side = side;
+        this.color = color;
+    }
+    
+    public double getArea()
+    {
+        return ((17*(side*side))/(7*Math.tan(Math.PI/17)));
+    }
+    
+    public double getPerimeter()
+    {
+        return 17 * side;
+    }
+    
+    public String getColor()
+    {
+        return this.color;
+    }
+}
