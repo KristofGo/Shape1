@@ -1,0 +1,24 @@
+public interface Shape
+{
+    /**
+     * computes area of shape
+     * 
+     * then returns the area of the shape
+     */
+    double getArea();
+    
+    /** 
+     * computes perimeter of shape
+     * 
+     * returns the perimeter
+     */
+    
+    double getPerimeter();
+    
+    /**
+     * gets shape color
+     * 
+     * returns color
+     */
+    String getColor();
+}
